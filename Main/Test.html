@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<script src="test.js">
+</script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link href="test.css" rel="stylesheet">
+</head>
+<body>
+<div id="top">
+	<div id="header">
+		<span id="head"><a href="Test.html">Lets Music</a></span>
+		<span id="list">
+			<ul>
+				<li><a href="https://www.google.com" target="_blank">Home</a></li>
+				<li><a href="https://www.google.com" target="_blank">Music</a></li>
+				<li><a href="https://www.google.com" target="_blank">Gallery</a></li>
+			</ul>
+		</span>
+	</div>
+	<div id="section">
+		<div class="sectionhead">
+			<h1>Play it</h1>
+			<h5>A perfect place for musicians.You can enjoy, learn, <br>and do whatever you want.  </h5>
+		</div>
+	</div>
+</div>
+<div class="card cards">
+	<div class="songs">
+		<div class ="songinner">
+			<div class="title">
+				<h1>Title</h1>
+			</div>
+			<div id="row">
+			</div>
+      <script>
+      var names=["Khwaab","Janam Janam","Kabhi jo badal barse","Lag Ja Gale","Mohabbat barsa dena","Main Hoon Hero Tera","Mile ho tum humko"
+    ,"Mere mehboob","Main phir bhi tumko chahunga","Mere rashke qamar","Na Ja","Pee Loon","Raabta","Sanam Re","Sanam teri kasam"
+    ,"Teri Meri Kahani","Tum Hi Ho"];
+      var images=["Images/khaab.jpeg","Images/jj.jpg","Images/kjbb.jpg","Images/ljg.jpg","Images/mbd.jpg",
+      "Images/mhht.jpg","Images/mhth.jpg","Images/mmqh.jpg","Images/mpb.jpg","Images/mrq.jpg","Images/NaJa.jpeg",
+      "Images/pl.jpg","Images/raabta.jpeg","Images/sr.jpg","Images/stk.jpg",
+      "Images/tmk.jpg","Images/tumhiho.png","Images/baarish.jpg","Images/boldo.jpg","Images/chura.jpg",
+      "Images/ddg.jpg","Images/di.jpg","Images/dlmd.jpg","Images/flute.jpg","Images/ga.jpg","Images/hed.jpg","Images/hrg.jpeg","Images/htp.jpg"];
+      var loop="";
+      for(var x=0;x<28;x++)
+        loop+="<div class=\"images\"><a href=\"https:www.google.com\" id=\"hey\"><img src=\""+images[x]+"\" class=\"img\"><h2 class=\"imageName\">"+names[x]+"<\/h2></a><\/div>"
+      document.getElementById("row").innerHTML=loop;
+      </script>
+		</div>
+	</div>
+</div>
+</body>
+</html>

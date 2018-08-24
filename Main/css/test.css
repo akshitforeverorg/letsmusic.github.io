@@ -1,0 +1,148 @@
+.card {
+  font-size: .875rem;
+}
+
+
+@media all and (max-width:600px){
+	.top{
+	height:300px;
+	background-color:#000;
+	}
+	.head{
+		font-size:1000px;
+	}
+}
+#top #header #head{
+	font-size:10px;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  font-size:24px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  height: 100%;
+  width: 100%;
+  overflow-x:hidden;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+#top{
+	background-image: url("Images/bg2.jpg");
+	height: 70%;
+	width: 100%;
+}
+
+#header {
+  background-color:transparent !important;
+  box-shadow: none;
+  padding-top: 35px;
+  color: #fff;
+  height: 80px;
+}
+
+#head a{
+	margin: 0px 0 0 12.5%;
+	color: white;
+	text-decoration: none;
+	font-size: 400%;
+}
+#header #head a:hover,#list ul li a:hover{
+	color: red;
+}
+#list ul{
+	display: inline-block;
+	float: right;
+	margin: 1%;
+	margin-right: 15%;
+}
+#list ul li{
+	font-size: 80%;
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+#list ul li a{
+	text-decoration: none;
+	color: white;
+}
+#section{
+	width: 100%;
+	text-align: left;
+	margin-top: 8%;
+	margin-left: 12.5%;
+	color: white;
+}
+
+#section .sectionhead h1{
+	margin: 0px;
+	font-size: 4.2rem;
+}
+h5{
+	margin: 0;
+	font-size:0.931rem;
+}
+.cards {
+    margin: -2% 30px 60px;
+    border-radius: 10px;
+		height: auto;
+      box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    background: #fff;
+    position: relative;
+    z-index: 5;
+}
+.songs{
+	padding: 60px 0px;
+}
+.songinner {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px 100px 0 100px;
+}
+.title {
+    margin-left:-12px;
+    min-height: 32px;
+		font-size: 25px;
+}
+#row{
+display: flex;
+flex-wrap: wrap;
+margin-left: -40px;
+color: black;
+}
+.images{
+	width:280px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.imageName{
+	width: inherit;
+}
+.img{
+	display: inline-block;
+	max-width: 300px;
+	width: 280px;
+	height: 175px;
+	margin-top: 20px;
+	margin-right:  20px;
+	border-radius: 1%;
+	box-shadow: 0px	5px 10px rgba(0, 0, 0, 0.14);
+}
